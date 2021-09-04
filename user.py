@@ -13,4 +13,4 @@ class user:
         saves account details of the user information
         
         '''    
-        
+        user.user_list.append(self)
