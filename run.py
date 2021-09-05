@@ -12,3 +12,8 @@ def save_user(user):
     Function to save user
     '''
     user.save_user()
+    
+def main():
+    
+    while True:
+        print("welcome to password vault")    
