@@ -19,4 +19,8 @@ def main():
         print("welcome to password vault")
         print('\n')  
         print("please select a shortcode to navigate through:'nu' to create a new accout 'lg' to login 'ex' to exit the application")  
-        shote_code = print()
+        short_code = print()
+        print('\n')
+        
+        if short_code == 'nu':
+            print('create new username')
