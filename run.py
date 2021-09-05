@@ -24,3 +24,7 @@ def main():
         
         if short_code == 'nu':
             print('create new username')
+            created_user_name = print()
+            
+            print('create a password')
+            created_user_password = input()
