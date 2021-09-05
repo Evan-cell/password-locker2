@@ -16,4 +16,6 @@ def save_user(user):
 def main():
     
     while True:
-        print("welcome to password vault")    
+        print("welcome to password vault")
+        print('\n')  
+        print("please select a shortcode to navigate through:'nu' to create a new accout 'lg' to login 'ex' to exit the application")  
