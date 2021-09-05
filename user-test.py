@@ -29,7 +29,17 @@ def test_save_user(self):
          the user list
         '''
         self.new_user.save_user() # saving the new contact
-        self.assertEqual(len(user.user_list),1)        
+        self.assertEqual(len(user.user_list),1)  
+def test_delete_user(self):
+            '''
+            test_delete_contact to test if we can remove a contact from our contact list
+            '''
+            self.new_contact.save_contact()
+            test_user = user("Test","user","0712345678","test@user.com") # new contact
+            test_user.save_user()
+
+            self.new_user.delete_user()# Deleting a contact object
+            self.assertEqual(len(user.user_list),1)              
 
 
 
