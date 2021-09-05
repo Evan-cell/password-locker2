@@ -28,3 +28,6 @@ def main():
             
             print('create a password')
             created_user_password = input()
+            
+            print('confirm password')
+            confirm_password = input()
