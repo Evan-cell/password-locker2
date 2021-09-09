@@ -6,6 +6,9 @@ The app helps the user to sign up put his or her details and then be able to log
 # Setup/Installation Requirements
 In order to run this project your can git clone it and then open the app in the editor of your choice,open your terminal and run the run.py file and the app will kick start
 
+# Known Bugs
+If you put in a wrong command line the application will not run
+
 # Behaviour Driven Development
 The program should return a users credentials when "VA" is chosen.
 Given: LogIn is successful
